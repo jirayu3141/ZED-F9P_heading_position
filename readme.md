@@ -1,5 +1,4 @@
 # pyUBX
-
 This is a small but functional Python3 wrapper for the u-blox M8 UBX protocol, as defined in [UBX-13003221 - R13, §31](https://www.u-blox.com/sites/default/files/products/documents/u-blox8-M8_ReceiverDescrProtSpec_(UBX-13003221)_Public.pdf) 
 and the u-blox F9 protocol as defined in [UBX-18010854](https://www.u-blox.com/sites/default/files/u-blox_ZED-F9P_InterfaceDescription_%28UBX-18010854%29.pdf).
 
@@ -14,6 +13,11 @@ The focus is on getting the basics right, which first of all means  correctly cr
 
 **Note**: Currently only a subset of all UBX messages is implemented. See the [progress status](#progress-status) below.
 
+
+### To print heading and position graph
+- plot headings: run file f9h_heading.py in tests folder
+- plot position: run file f9p_position.py in tests folder
+- 
 #### Cloning
 
 The python module, `ubx`, is installed with `pip` from the top level directory.
