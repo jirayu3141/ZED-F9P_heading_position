@@ -17,7 +17,7 @@ The focus is on getting the basics right, which first of all means  correctly cr
 ### To print heading and position graph
 - plot headings: run file f9h_heading.py in tests folder
 - plot position: run file f9p_position.py in tests folder
-- 
+  
 #### Cloning
 
 The python module, `ubx`, is installed with `pip` from the top level directory.
